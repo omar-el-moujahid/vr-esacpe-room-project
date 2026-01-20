@@ -4,7 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/room2.unity
+    guid: a7d100f25eaada4408fb3e0a30a4ed92
+  - enabled: 1
+    path: Assets/room.unity
+    guid: bac190e84a725cb449fab6b4de675cfa
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6eb8452e2c531944098638f25bbc53fb, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 24b94cbdee8aa9f479552c6bf02efd1b, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2719c84f04e2b3f4180d55cd198f93d0, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f2e4d28da043ce241abf1940a130854d, type: 2}
